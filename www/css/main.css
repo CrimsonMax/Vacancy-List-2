@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: darkgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  background-color: grey;
+}
+
+.container * {
+  margin: 5px 0;
+}
+
+.container .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .profile .pic {
+  width: 150px;
+  height: 150px;
+}
+
+.container .profile .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.container .profile .info {
+  padding: 0;
+}
+
+.container .profile .info a {
+  padding: 0;
+}
+
+.container .profile > * {
+  margin: 0 10px;
+}
+
+.container .english .levelEng input {
+  display: none;
+}
+
+.container .english .levelEng input:checked + label {
+  border: ridge 2px orange;
+  border-radius: 50%;
+}
+
+.container > * {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid black;
+}
+
+span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+input:not([type=text]), button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

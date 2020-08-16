@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/www/css/main.css">
+    <title>HR Form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Вакансия: Juniour Frontend Developer</h1>
+
+        <div class="profile">
+            <div class="pic">
+                <img src="/www/img/Donald.jpg" alt="My Face" srcset="">
+            </div>
+            <div class="info">
+                <span>Имя: Максим Медведев</span><br>
+                <span><a href="http://MyGitHub">Ссылка на репозиторий в GitHub</a></span><br>
+                <span>Опыт работы: нет</span>
+            </div>
+        </div>
+
+        <div class="date">
+                <span>Дата собеседования:</span> 
+                <input type="date" name="calendar" id="calendar">
+        </div>
+        
+        <div class="english">
+            <span>Уровень английского:</span>
+            <div class="levelEng">
+                <input type="radio" name="level" value="Bad" id="Bad">
+                <label for="Bad">Плохо</label>
+                <input type="radio" name="level" value="Middle" id="Middle">
+                <label for="Middle">Средне</label>
+                <input type="radio" name="level" value="Good" id="Good">
+                <label for="Good">Хорошо</label>
+                <input type="radio" name="level" value="Awesome" id="Awesome">
+                <label for="Awesome">Превосходно</label>
+            </div>
+        </div>
+
+        <div class="skills">
+            <span>Ключевые навыки:</span>
+            <ul>
+                <li>- HTML</li>
+                <li>- CSS</li>
+                <li>- JavaScript</li>
+                <li>- ...</li>
+            </ul>
+            <div class="addSkill">
+                <input type="text" name="Add" id="Skill" placeholder="Введите навык ...">
+                <button id="addSkill" name="addon">Добавить в список</button>
+            </div>
+        </div>
+
+        <div class="character">
+            <span>Коммуникабельность:</span>
+            <select name="Character" id="Character">
+                <option disabled selected>Выберите значение ...</option>
+                <option value="">Крутой</option>
+                <option value="">Интересный</option>
+                <option value="">Активный</option>
+            </select>
+        </div>
+        
+        <div class="swag">
+            <span>Желаемая зарплата:</span>
+            <input type="text" placeholder="Введите значение ...">
+        </div>
+
+        <div class="notes">
+            <span>Подходит по критериям:</span>
+            <div class="summary">
+                <input type="checkbox" name="lang" id="lang">
+                <label for="lang">Знание английского</label>
+                <input type="checkbox" name="money" id="money">
+                <label for="money">Оклад</label>
+                <input type="checkbox" name="skills" id="skills">
+                <label for="skills">Навыки</label>
+                <input type="checkbox" name="goodwill" id="goodwill">
+                <label for="goodwill">Сразу видно, свой человек</label>
+            </div>
+        </div>
+
+        <div class="table">
+            <span>Образование, курсы, и т.п.</span>
+            <div class="tbl">
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>Сроки обучения</th>
+                        <th>Наименование учебного заведения, курсов ...</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>1991-2002</td>
+                        <td>Средняя школа</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>2003-2005</td>
+                        <td>Экономический колледж</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>2006-2011</td>
+                        <td>Институт Бизнеса и Права</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>2008-2009</td>
+                        <td>Школа Английского Языка</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>2020</td>
+                        <td>Курсы фронт-энда</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    
+
+    
+</body>
+
+</html>
